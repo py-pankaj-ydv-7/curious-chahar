@@ -15,41 +15,43 @@ int main()
     // fizz /3 , buzz /5 , bang /5&&3
 
     // int n;
-    // cin >> n;
-    // if (n % 5 == 0 && n % 3 == 0)
-    // {
-    //     cout << "bang";
+    // cin>> n;
+    // if(n%5==0 && n%3==0){
+    //     cout<<"big bang";
     // }
-    // else if (n % 3 == 0)
-    // {
-    //     cout << "fizz";
+    // else if (n%5==0){
+    //     cout<<"fizz";
     // }
-    // else if (n % 5 == 0)
+    // else if(n%3==0)
     // {
-    //     cout << "buzz";
+    //   cout<<"buzz";
     // }
-    // else
-    // {
-    //     cout << "sad";
+
+    // else{
+    //     cout<<"sad ";
     // }
 
 
 
-    int n;
-    cin>> n;
-    if(n%5==0 && n%3==0){
-        cout<<"big bang";
-    }
-    else if (n%5==0){
-        cout<<"fizz";
-    }
-    else if(n%3==0)
+    /******** Switch Case */
+ int n;
+ cin>>n;
+    switch (n%3)
     {
-      cout<<"buzz";
-    }
-
-    else{
-        cout<<"sad ";
+    case 0:
+        cout<<"Happy";
+        break;
+    
+    case 1:
+        cout<<"Sad";
+        break;
+    
+    case 2:
+        cout<<"close";
+        break;
+    
+    default:
+        break;
     }
     
 }
