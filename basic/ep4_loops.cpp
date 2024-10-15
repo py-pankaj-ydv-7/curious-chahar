@@ -2,21 +2,27 @@
 using namespace std;
 int main(){
 
-    for(int i=0; i<10 && i<5; i++){
-        cout<<"hello code in 10 fam"<<endl;
-    }
+    /* For Loop */
+
+    // for(int i=0; i<10 && i<5; i++){
+    //     cout<<i<<" hello code in 10 fam"<<endl;
+    // }
+
+/* While Loop */
    
 //    int i=0;
 //    while(i<10){
 //     cout<<i<<" hello code in 10 fam"<<endl;
-//     i+=2;
+//     i+=3;
 //    }
 
-// int i=-1;
-// do{
-//     cout<<i<<" hello code in 10 fam"<<endl;
-//     i++;
-// }while (i>0);
 
+/* Do While Loop */
 
- }
+int i=1;
+do{
+    cout<<i<<" hello code in 10 fam"<<endl;
+    i++;
+}while (10>=i);
+
+}
