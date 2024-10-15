@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+    cout<<"data type & variables";  
 
-
-cout<<"Namste Duniya ";
+    return 0;
 }
